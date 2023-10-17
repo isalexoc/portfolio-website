@@ -71,6 +71,10 @@
   margin-left: 10px;
 }
 
+.stats p {
+  line-height: 35px;
+}
+
 @media (max-width: 767px) {
   .header .social i {
     font-size: 30px;
@@ -89,5 +93,11 @@
     margin-bottom: 40px;
     border-bottom: var(--bs-dark) solid 1px;
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .stats p {
+    line-height: 3px;
   }
 }
